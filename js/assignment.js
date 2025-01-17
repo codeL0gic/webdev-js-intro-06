@@ -21,13 +21,13 @@ function sumTheNumbers() {
   // on the assignment page
 
   for (let i = 1; i <= 10; i++) {
-    // if (sum += i[(1, 3, 6, 10, 15, 21, 28, 36, 45, 55)]);
+    if ((sum += i[(1, 3, 6, 10, 15, 21, 28, 36, 45, 55)]));
     sumTheNumbersElement.innerHTML = sum;
   }
 }
 
 function createNumberArray() {
-  numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   createNumberArrayElement.innerHTML = numberArray;
   // Write the logic to create an array of numbers 1 through 10
   while ((numberArray.length < 10, ++numberArray)) {
@@ -41,6 +41,7 @@ function render() {
   evenOrOdd();
   sumTheNumbers();
   createNumberArray();
+  numberArray.push();
 }
 
 submissionBtn.addEventListener("click", function () {
