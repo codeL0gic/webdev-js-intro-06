@@ -14,14 +14,15 @@ function evenOrOdd() {
 }
 
 function sumTheNumbers() {
-  let sum;
+  const Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let sum = 0;
   sumTheNumbersElement.innerHTML = sum;
   // Write the logic to sum the numbers 1 through 10
   // using a for loop. Check the expected output
   // on the assignment page
 
   for (let i = 1; i <= 10; i++) {
-    if ((sum += i[(1, 3, 6, 10, 15, 21, 28, 36, 45, 55)]));
+    sum += i;
     sumTheNumbersElement.innerHTML = sum;
   }
 }
